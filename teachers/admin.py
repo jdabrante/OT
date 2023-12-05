@@ -5,5 +5,5 @@ from .models import Teacher
 
 @admin.register(Teacher)
 class TeacherAdmin(admin.ModelAdmin):
-    list_display = ['first_name', 'last_name', 'subject']
+    list_display = ['id', 'first_name', 'last_name', 'subject']
     prepopulated_fields = {'slug': ('first_name', 'last_name')}

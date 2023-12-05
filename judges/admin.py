@@ -5,5 +5,5 @@ from .models import Judge
 
 @admin.register(Judge)
 class JudgeAdmin(admin.ModelAdmin):
-    list_display = ['first_name', 'last_name']
+    list_display = ['id', 'first_name', 'last_name']
     prepopulated_fields = {'slug': ('first_name', 'last_name')}
