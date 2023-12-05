@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %} OT | {{ competitor.first_name }}{% endblock  %}
+
+{% block content %}
+<img src="{{ competitor.avatar.url }}">
+<p>Nombre: {{ competitor.first_name }} {{ competitor.last_name }}</p>
+<p>Trabajo: {{ competitor.job }}</p>
+<p>Hobby: {{ competitor.hobbies }}</p>
+<p>Estilo de músic:</p>
+{% for music in competitor.music_styles.all %}
+<p>{{ music }}</p>
+{% endfor %}
+<p></p>
+{% endblock %}

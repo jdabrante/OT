@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}OT | Concursantes{% endblock %}
+
+{% block content %}
+{% for competitor in competitors %}
+<a href="{{ competitor.get_absolute_url }}"><p>{{ competitor.first_name }}</p></a>
+<img src="{{ competitor.avatar.url }}">
+{% endfor %}
+{% endblock %}

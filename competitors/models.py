@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class MusicStyle(models.Model):
@@ -21,3 +22,6 @@ class Competitor(models.Model):
         ordering = ['first_name']
 
         indexes = [models.Index(fields=['first_name'])]
+
+    def get_absolute_url(self):
+        return reverse('competitors:competitor_detail', args=[self.id])
