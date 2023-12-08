@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %} OT {% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<div class="row all-competitors">
+{% for result in results %}
+{% for member in result %}
+<div class="col-md-3 col-12 text-center">
+    <a href="{{ member.get_absolute_url }}" class="competitors">
+        <img src="{% thumbnail member.avatar 250x250 %}" class="avatar">
+        <p class="competitor-name">{{ member.first_name }}</p>
+    </a>
+</div>
+{% endfor %}
+{% endfor %}
+</div>
+{% endblock %}

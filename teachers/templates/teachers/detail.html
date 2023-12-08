@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %} OT | {{ teacher.first_name }}{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<img src="{% thumbnail teacher.avatar 500x500 %}" alt="">
+<p>Nombre: {{ teacher.first_name }} {{ teacher.last_name }}</p>
+<p>Profesión: {{ teacher.job }}</p>
+<p>Asignatura: {{ teacher.subject }}</p>
+{% endblock %}

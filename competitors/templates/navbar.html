@@ -1,0 +1,26 @@
+<nav class="bar fixed-top">
+    <div class="row left-nav">
+        <div class="col">
+            <a href="{% url 'dashboard'%}">Home</a>
+        </div>
+        <div class="col">
+            <a href="{% url 'competitors:competitors_list' %}">Concursantes</a>
+        </div>
+        <div class="col">
+            <a href="{% url 'judges:judge_list' %}">Jurado</a>
+        </div>
+        <div class="col">
+            <a href="{% url 'teachers:teachers_list' %}">Profesorado</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form action="{% url 'search'%}">
+                {% for field in form %}
+                <label for=""></label>
+                {{ field }}
+                {% endfor %}
+            </form>
+        </div>
+    </div>
+</nav>

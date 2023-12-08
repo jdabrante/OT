@@ -24,4 +24,4 @@ class Competitor(models.Model):
         indexes = [models.Index(fields=['first_name'])]
 
     def get_absolute_url(self):
-        return reverse('competitors:competitor_detail', args=[self.id])
+        return reverse('competitors:competitor_detail', args=[self.slug])

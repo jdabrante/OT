@@ -18,10 +18,15 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
+from competitors import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('teachers.urls', namespace='teachers')),
     path('', include('competitors.urls', namespace='competitors')),
+    path('', include('judges.urls', namespace='judges')),
+    path('', views.dashboard, name='dashboard'),
+    path('search/', views.member_search, name='search')
 ]
 
 if settings.DEBUG:

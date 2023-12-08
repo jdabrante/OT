@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+
+{% block title %} OT | {{ judge.first_name }}{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<img src="{% thumbnail judge.avatar 500x500 %}">
+<p>Nombre: {{ judge.first_name }} {{ judge.last_name }}</p>
+<p>Ocupación: {{ judge.job }}</p>
+{% endblock %}

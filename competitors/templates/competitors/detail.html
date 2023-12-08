@@ -3,13 +3,14 @@
 {% block title %} OT | {{ competitor.first_name }}{% endblock  %}
 
 {% block content %}
+{% include "navbar.html" %}
 <img src="{{ competitor.avatar.url }}">
 <p>Nombre: {{ competitor.first_name }} {{ competitor.last_name }}</p>
 <p>Trabajo: {{ competitor.job }}</p>
 <p>Hobby: {{ competitor.hobbies }}</p>
 <p>Estilo de músic:</p>
 {% for music in competitor.music_styles.all %}
-<p>{{ music }}</p>
+<p>{{ music.name }}</p>
 {% endfor %}
 <p></p>
 {% endblock %}

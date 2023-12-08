@@ -1,10 +1,20 @@
 {% extends "base.html" %}
 
+{% load thumbnail %}
+
 {% block title %}OT | Concursantes{% endblock %}
 
 {% block content %}
-{% for competitor in competitors %}
-<a href="{{ competitor.get_absolute_url }}"><p>{{ competitor.first_name }}</p></a>
-<img src="{{ competitor.avatar.url }}">
-{% endfor %}
+{% include "navbar.html" %}
+<div class="row all-competitors">
+    {% for competitor in competitors %}
+    <div class="col-md-3 col-12 text-center">
+        <a href="{{ competitor.get_absolute_url }}" class="competitors">
+            <img src="{% thumbnail competitor.avatar 250x250 %}" class="avatar">
+            <p class="competitor-name">{{ competitor.first_name }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
 {% endblock %}

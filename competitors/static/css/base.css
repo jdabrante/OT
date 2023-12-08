@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    background-color: rgb(1, 0, 10);
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.members-group {
+    width: 100%;
+}
+
+.dash-img-container {
+    position: relative;
+    border: solid 3px orange;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.dash-img {
+    width: 350px;
+    height: 30vh;
+    border-radius: 10px;
+    transition: ease 0.5s;
+    object-fit: cover;
+    filter: blur(5px) grayscale();
+}
+
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 47px;
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 100%;
+    transition: ease 0.5s;
+}
+
+.judges {
+    top: 36%;
+    left: 30%;
+}
+
+.teachers {
+    top: 36%;
+    left: 14%;
+}
+
+.competitors {
+    top: 36%;
+    left: 8%;
+}
+
+@media (max-width: 480px) {
+    .dash-img {
+        width: 250px;
+    }
+}
+
+
+.dash-img-container:hover .dash-img {
+    box-shadow: 0px 0px 50px 2px orange;
+    transform: scale(1.05);
+    filter: blur(0px);
+    opacity: 100%;
+}
+
+.dash-img-container:hover .title {
+    opacity: 0%;
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgb(125,15,99);
+    background: radial-gradient(circle, rgba(125,15,99,1) 0%, rgba(138,42,56,1) 50%, rgba(151,67,15,1) 100%); 
+}
+
+.bar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.avatar {
+    border-radius: 10%;
+    transition: ease 0.5s;
+}
+
+.competitors {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+
+.competitors:hover .avatar {
+    box-shadow: 0px 0px 50px 2px orange;
+    transform: scale(1.05);
+}
+
+.competitors:hover {
+    color: rgba(255, 255, 255, 0);
+}
+
+#id_query {
+    border: solid 2px rgba(255, 166, 0, 0.856);
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.075);
+    color: white;
+}
+
+.all-competitors {
+    margin-top: 100px;
+}
+
+.left-nav {
+    margin-left: 5%;
+}

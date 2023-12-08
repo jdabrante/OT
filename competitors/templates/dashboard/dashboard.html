@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}OT | Dashboard {% endblock %}
+
+{% block content %}
+    <div>
+        
+    </div>
+    <div class="container">
+        <div class="row members-groups container-fluid g-4">
+            <div class="col-md-4 col-12 text-center">
+                <div class="dash-img-container">
+                    <a href="{% url 'judges:judge_list' %}">
+                        <img src="{% static "img/judge.jpg"%}" class="dash-img">
+                        <p class="title judges">Jurado</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <div class="dash-img-container">
+                    <a href="{% url 'competitors:competitors_list' %}">
+                        <img src="{% static "img/competitors.jpg" %}" class="dash-img">
+                        <p class="title competitors">Concursantes</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <div class="dash-img-container">
+                    <a href="{% url 'teachers:teachers_list' %}">
+                        <img src="{% static "img/teachers.png" %}" class="dash-img">
+                        <p class="title teachers">Profesorado</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

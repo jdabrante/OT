@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load thumbnail %}
+
+{% block title %}OT | Jurado{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<div class="row all-competitors">
+    {% for judge in judges %}
+    <div class="col-md-3 col-12 text-center">
+        <a href="{{ judge.get_absolute_url }}" class="competitors">
+            <img src="{% thumbnail judge.avatar 250x250 %}" class="avatar">
+            <p class="competitor-name">{{ judge.first_name }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
