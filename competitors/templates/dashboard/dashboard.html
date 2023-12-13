@@ -4,35 +4,43 @@
 {% block title %}OT | Dashboard {% endblock %}
 
 {% block content %}
-    <div>
-        
-    </div>
-    <div class="container">
+    <div class="main">
+    <img src="{% static 'img/logo-title.png'%}" class="logo-title">
+    <video class="video" widt="100%" playsinline="" autoplay="" loop="" title="" poster="https://d95a3luo0amge.cloudfront.net/operaciontriunfo/images/video/poster.jpg" aria-hidden="true"><source src="https://d95a3luo0amge.cloudfront.net/operaciontriunfo/images/video/hero.webm" type="video/webm"><source src="https://d95a3luo0amge.cloudfront.net/operaciontriunfo/images/video/hero.mp4" type="video/mp4">
+        <source src="https://d95a3luo0amge.cloudfront.net/operaciontriunfo/images/video/hero.webm" type="video/webm">
+        <source src="https://d95a3luo0amge.cloudfront.net/operaciontriunfo/images/video/hero.mp4" type="video/mp4">
+    </video>
+    <div class="container options">
         <div class="row members-groups container-fluid g-4">
-            <div class="col-md-4 col-12 text-center">
+            <div class="col-md-4 col-12 image-center">
                 <div class="dash-img-container">
                     <a href="{% url 'judges:judge_list' %}">
                         <img src="{% static "img/judge.jpg"%}" class="dash-img">
                         <p class="title judges">Jurado</p>
+                        <div class="background-title"></div>
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 col-12 text-center">
+            <div class="col-md-4 col-12 image-center">
                 <div class="dash-img-container">
                     <a href="{% url 'competitors:competitors_list' %}">
                         <img src="{% static "img/competitors.jpg" %}" class="dash-img">
                         <p class="title competitors">Concursantes</p>
+                        <div class="background-title"></div>
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 col-12 text-center">
+            <div class="col-md-4 col-12 image-center">
                 <div class="dash-img-container">
                     <a href="{% url 'teachers:teachers_list' %}">
                         <img src="{% static "img/teachers.png" %}" class="dash-img">
                         <p class="title teachers">Profesorado</p>
+                        <div class="background-title"></div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    
 {% endblock %}

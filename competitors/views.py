@@ -6,6 +6,7 @@ from .models import Competitor
 from teachers.models import Teacher
 from judges.models import Judge
 from django.db.models import Q
+from itertools import chain
 
 def dashboard(request: HttpRequest) -> HttpResponse:
     return render(request, 'dashboard/dashboard.html')
@@ -29,9 +30,11 @@ def member_search(request):
     if 'query' in request.GET:
         form = SearchForm(request.GET)
         if form.is_valid():
-            query = form.cleaned_data['query']
-            results.append(set(Competitor.objects.annotate(search=SearchVector('first_name', 'last_name', 'birthdate', 'city', 'job', 'hobbies'))\
-            .filter(Q(search=query) | Q(music_styles__name=query))))
-            results.append(set(Teacher.objects.annotate(search=SearchVector('first_name', 'last_name', 'subject')).filter(search=query)))
-            results.append(set(Judge.objects.annotate(search=SearchVector('first_name', 'last_name', 'job')).filter(search=query)))
+            query = form.cleaned_data['query'].lower()
+            competitors = set(Competitor.objects.annotate(search=SearchVector('first_name', 'last_name', 'birthdate', 'city', 'job', 'hobbies'))\
+            .filter(Q(search=query) | Q(music_styles__name=query)))
+            teachers = set(Teacher.objects.annotate(search=SearchVector('first_name', 'last_name', 'subject')).filter(search=query))
+            judges = set(Judge.objects.annotate(search=SearchVector('first_name', 'last_name', 'job')).filter(search=query))    
+            # Use chain to agrupate the 'querysets'
+            results = chain(competitors, teachers, judges)
     return render(request, 'search.html', dict(results=results, form=form))

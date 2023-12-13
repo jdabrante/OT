@@ -4,8 +4,22 @@
 
 {% block content %}
 {% include "navbar.html" %}
-<img src="{% thumbnail teacher.avatar 500x500 %}" alt="">
-<p>Nombre: {{ teacher.first_name }} {{ teacher.last_name }}</p>
-<p>Profesión: {{ teacher.job }}</p>
-<p>Asignatura: {{ teacher.subject }}</p>
+<div class="container detail">
+    <div class="detail-container">
+        <div class="detail-img">
+            <img src="{% thumbnail teacher.avatar 300x300 crop='smart' %}" class="avatar">
+        </div> 
+        <div class="row member-information">
+            <div class="col-2">
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+            </div>
+            <div class="col">
+                <p>Nombre: {{ teacher.first_name }} {{ teacher.last_name }}</p>
+                <p>Asignatura: {{ teacher.subject }}</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

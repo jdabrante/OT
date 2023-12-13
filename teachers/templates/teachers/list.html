@@ -9,12 +9,11 @@
 <div class="row all-competitors">
     {% for teacher in teachers %}
     <div class="col-md-3 col-12 text-center">
-        <a href="{{ judge.get_absolute_url }}" class="competitors">
+        <a href="{{ teacher.get_absolute_url }}" class="competitors-img">
             <img src="{% thumbnail teacher.avatar 250x250 %}" class="avatar">
             <p class="competitor-name">{{ teacher.first_name }}</p>
         </a>
     </div>
     {% endfor %}
 </div>
-
 {% endblock %}

@@ -8,8 +8,8 @@
 {% include "navbar.html" %}
 <div class="row all-competitors">
     {% for competitor in competitors %}
-    <div class="col-md-3 col-12 text-center">
-        <a href="{{ competitor.get_absolute_url }}" class="competitors">
+    <div class="col-12 col-md-4 col-lg-3 text-center">
+        <a href="{{ competitor.get_absolute_url }}" class="competitors-img">
             <img src="{% thumbnail competitor.avatar 250x250 %}" class="avatar">
             <p class="competitor-name">{{ competitor.first_name }}</p>
         </a>
