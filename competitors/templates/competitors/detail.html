@@ -4,30 +4,18 @@
 
 {% block content %}
 {% include "navbar.html" %}
-<div class="container detail">
-    <div class="detail-container">
-        <div class="detail-img">
-            <img src="{% thumbnail competitor.avatar 300x300 %}" class="avatar">
-        </div> 
-        <div class="row member-information">
-            <div class="col-2">
-                <p>Twitter</p>
-                <p>Instagram</p>
-                <p>Youtube</p>
-            </div>
-            <div class="col">
-                <p>Nombre: {{ competitor.first_name }} {{ competitor.last_name }}</p>
-                <p>Trabajo: {{ competitor.job }}</p>
-                <p>Hobby: {{ competitor.hobbies }}</p>
-                <p>Ciudad: {{ competitor.city }}</p>
-                <p>Estilo de músic:
-                {% for music in competitor.music_styles.all %}
-                {{ music.name }}
-                {% endfor %}
-                </p>
-            </div>
-
-        </div>
+<div class="detail-container">
+    <img src="{% thumbnail competitor.avatar 300x300 %}" class="detail-avatar">
+    <div class="detail-info">
+        <p class="name">{{ competitor.first_name }} {{ competitor.last_name }}</p>
+        <p>Fecha de nacimiento: {{ competitor.birthdate|date:"d/m/o" }}</p>
+        <p>Trabajo: {{ competitor.job }}</p>
+        <p>Hobby: {{ competitor.hobbies }}</p>
+        <p>Ciudad: {{ competitor.city }}</p>
+        <p>Estilo de músic:
+        {% for music in competitor.music_styles.all %}
+        {{ music.name }}
+        {% endfor %}
     </div>
 </div>
 {% endblock %}

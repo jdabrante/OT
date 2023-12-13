@@ -5,22 +5,12 @@
 
 {% block content %}
 {% include "navbar.html" %}
-<div class="container detail">
-    <div class="detail-container">
-        <div class="detail-img">
-            <img src="{% thumbnail judge.avatar 300x300 crop='smart' %}" class="avatar">
-        </div> 
-        <div class="row member-information">
-            <div class="col-2">
-                <p>Twitter</p>
-                <p>Instagram</p>
-                <p>Youtube</p>
-            </div>
-            <div class="col">
-                <p>Nombre: {{ judge.first_name }} {{ judge.last_name }}</p>
-                <p>Ocupacion: {{ judge.job }}</p>
-            </div>
-        </div>
+<div class="detail-container">
+    <img src="{% thumbnail judge.avatar 300x300 crop='-10,0,-10, 0'%}" class="detail-avatar">
+    <div class="detail-info">
+        <p class="name">{{ judge.first_name }} {{ judge.last_name }}</p>
+        <p class="job">{{ judge.job }}</p>
+        <p>{{ judge.description }}</p>
     </div>
 </div>
 {% endblock %}

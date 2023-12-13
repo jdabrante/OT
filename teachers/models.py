@@ -7,6 +7,7 @@ class Teacher(models.Model):
     slug = models.CharField(max_length=200)
     subject = models.CharField(max_length=200)
     avatar = models.ImageField(upload_to='teachers/%Y/%m/%d')
+    description = models.TextField(null=True, blank=True)
 
     def get_absolute_url(self):
         return reverse('teachers:teacher_detail', args=[self.slug])

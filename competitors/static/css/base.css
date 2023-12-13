@@ -29,26 +29,15 @@ body {
 .dash-img {
     width: 350px;
     height: 30vh;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     transition: ease 0.5s;
     object-fit: cover;
-    filter: blur(2px);
     z-index: 0;
 }
 
-.background-title {
-    width: 100%;
-    height: 80px;
-    background-color: rgba(255, 166, 0, 0.363);
-    position: absolute;
-    top: 35%;
-    opacity: 100%;
-    z-index: 1;
-}
 
 .title {
     font-family: 'Rubik', sans-serif;
-    position: absolute;
     font-weight: bold;
     font-size: 47px;
     color: rgba(0, 0, 0, 0.623);
@@ -56,6 +45,10 @@ body {
     transition: ease 0.5s;
     width: 100%;
     z-index: 2;
+    text-align: center;
+    background-color: rgba(209, 9, 142, 0.904);
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(255, 255, 255);
 }
 
 .judges {
@@ -85,6 +78,7 @@ body {
     transform: scale(1.05);
     filter: blur(0px);
     opacity: 100%;
+    border-radius: 10px;
 }
 
 
@@ -153,7 +147,26 @@ body {
 
 
 .detail-container {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin: 0px 300px 0 300px;
+    padding: 0px 200px 0 200px;
+}
+
+.detail-info {
+    background-color: rgba(0, 0, 0, 0.425);
+    height: max-content;
+    width: 600px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.detail-avatar {
+    border-radius: 50%;
 }
 
 .member-information {
@@ -170,15 +183,11 @@ body {
 }
 
 .detail-img {
-    position: absolute;
-    top: -300px;
-    z-index: 1;
-    left: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.detail-img > .avatar {
-    border-radius: 100%;
-}
 
 /* navbar */
 
@@ -254,4 +263,24 @@ ul li:hover a {
     position: absolute;
     z-index: 10;
     width: 500px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.job {
+    font-weight: bold;
+}
+
+.empty {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+.selected {
+    font-weight: bold;
+    opacity: 100%;
 }

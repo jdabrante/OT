@@ -832,6 +832,279 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-12-09T13:41:12.546Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Judge object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-12-09T13:41:19.213Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Judge object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-12-09T13:41:25.247Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Judge object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-12-09T15:04:16.867Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "MusicStyle object (25)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-12-09T15:04:23.613Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "MusicStyle object (24)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-12-09T15:04:27.825Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "MusicStyle object (23)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-12-09T15:04:32.224Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "MusicStyle object (22)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-12-13T10:40:21.732Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Judge object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-12-13T10:40:36.529Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Judge object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-12-13T10:40:47.590Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Judge object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-12-13T10:45:06.565Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Teacher object (11)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-12-13T10:45:19.240Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Teacher object (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-12-13T10:45:29.981Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Teacher object (9)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-12-13T10:45:42.196Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Teacher object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-12-13T10:45:54.436Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Teacher object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-12-13T10:46:06.987Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Teacher object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-12-13T10:46:18.489Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Teacher object (5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-12-13T10:46:29.793Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Teacher object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-12-13T10:46:42.377Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Teacher object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-12-13T10:46:54.851Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Teacher object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-12-13T10:47:06.517Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Teacher object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1304,7 +1577,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$720000$fo93qWfj1h1rtX6p8I9uVq$Em806bodEiQZlJsqqRbLSpWF1U/HHlKKsrQhmLCXOlg=",
-    "last_login": "2023-12-06T00:53:29.941Z",
+    "last_login": "2023-12-09T13:40:53.737Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -1423,6 +1696,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "2sjnpoh5ipyhk98jto7wuod8j2eqijp1",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlnOj7dQ0ucM1l8MDiBHipMKcXeIlALaNzPvpRJua0lby0uaRJ1Vp06_GyE_ct2B3LHeZs1zXZeJ9K7ogzY9zpKfl8P9OyjYyreO0QPAEHAghODQUICOyUZhcpn8tRdryIKws64XDMaByYCR2UPvo3p_ANZhN5A:1rBxZd:6OXcXdkEK71Vwh6Oy6W-VNNrLWWa9tqythEB_HBeikE",
+    "expire_date": "2023-12-23T13:40:53.740Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "cmnn3tn01f93gja411z2w5x819k8ojxq",
   "fields": {
     "session_data": ".eJxVjDkOwjAUBe_iGlnOj7dQ0ucM1l8MDiBHipMKcXeIlALaNzPvpRJua0lby0uaRJ1Vp06_GyE_ct2B3LHeZs1zXZeJ9K7ogzY9zpKfl8P9OyjYyreO0QPAEHAghODQUICOyUZhcpn8tRdryIKws64XDMaByYCR2UPvo3p_ANZhN5A:1rAgAL:FHK-roO9lr8sdjCGKEh9Mgx3bfHDpOTxjzSK1XrkF5c",
@@ -1430,10 +1711,18 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "o3g49tklrdh6s7qmxaiyq420xd10irep",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlnOj7dQ0ucM1l8MDiBHipMKcXeIlALaNzPvpRJua0lby0uaRJ1Vp06_GyE_ct2B3LHeZs1zXZeJ9K7ogzY9zpKfl8P9OyjYyreO0QPAEHAghODQUICOyUZhcpn8tRdryIKws64XDMaByYCR2UPvo3p_ANZhN5A:1rBJp6:-tUfM6Z016yH5XP0ap2RuGcfVbyZHLjXKo7BNXBTx0A",
+    "expire_date": "2023-12-21T19:14:12.366Z"
+  }
+},
+{
   "model": "competitors.musicstyle",
   "pk": 2,
   "fields": {
-    "name": "Pop",
+    "name": "pop",
     "slug": "pop"
   }
 },
@@ -1441,7 +1730,7 @@
   "model": "competitors.musicstyle",
   "pk": 3,
   "fields": {
-    "name": "Pop-rock",
+    "name": "pop-rock",
     "slug": "pop-rock"
   }
 },
@@ -1449,7 +1738,7 @@
   "model": "competitors.musicstyle",
   "pk": 4,
   "fields": {
-    "name": "Pop-latino",
+    "name": "pop-latino",
     "slug": "pop-latino"
   }
 },
@@ -1457,7 +1746,7 @@
   "model": "competitors.musicstyle",
   "pk": 5,
   "fields": {
-    "name": "Pop internacional",
+    "name": "pop internacional",
     "slug": "pop-internacional"
   }
 },
@@ -1465,7 +1754,7 @@
   "model": "competitors.musicstyle",
   "pk": 6,
   "fields": {
-    "name": "R&B",
+    "name": "r&b",
     "slug": "rb"
   }
 },
@@ -1473,7 +1762,7 @@
   "model": "competitors.musicstyle",
   "pk": 7,
   "fields": {
-    "name": "Soul",
+    "name": "soul",
     "slug": "soul"
   }
 },
@@ -1481,7 +1770,7 @@
   "model": "competitors.musicstyle",
   "pk": 8,
   "fields": {
-    "name": "Pop House",
+    "name": "pop house",
     "slug": "pop-house"
   }
 },
@@ -1489,7 +1778,7 @@
   "model": "competitors.musicstyle",
   "pk": 9,
   "fields": {
-    "name": "Pop urbano",
+    "name": "pop urbano",
     "slug": "pop-urbano"
   }
 },
@@ -1497,7 +1786,7 @@
   "model": "competitors.musicstyle",
   "pk": 10,
   "fields": {
-    "name": "Rock 80s",
+    "name": "rock 80s",
     "slug": "rock-80s"
   }
 },
@@ -1505,7 +1794,7 @@
   "model": "competitors.musicstyle",
   "pk": 11,
   "fields": {
-    "name": "Reguetón",
+    "name": "reguetón",
     "slug": "regueton"
   }
 },
@@ -1513,7 +1802,7 @@
   "model": "competitors.musicstyle",
   "pk": 12,
   "fields": {
-    "name": "Hip Hop",
+    "name": "hip hop",
     "slug": "hip-hop"
   }
 },
@@ -1521,7 +1810,7 @@
   "model": "competitors.musicstyle",
   "pk": 13,
   "fields": {
-    "name": "Música de cantautor",
+    "name": "música de cantautor",
     "slug": "musica-de-cantautor"
   }
 },
@@ -1545,7 +1834,7 @@
   "model": "competitors.musicstyle",
   "pk": 16,
   "fields": {
-    "name": "Jota",
+    "name": "jota",
     "slug": "jota"
   }
 },
@@ -1553,7 +1842,7 @@
   "model": "competitors.musicstyle",
   "pk": 17,
   "fields": {
-    "name": "Flamenco pop",
+    "name": "flamenco pop",
     "slug": "flamenco-pop"
   }
 },
@@ -1561,7 +1850,7 @@
   "model": "competitors.musicstyle",
   "pk": 18,
   "fields": {
-    "name": "Baladas",
+    "name": "baladas",
     "slug": "baladas"
   }
 },
@@ -1569,7 +1858,7 @@
   "model": "competitors.musicstyle",
   "pk": 19,
   "fields": {
-    "name": "Rock alternativo",
+    "name": "rock alternativo",
     "slug": "rock-alternativo"
   }
 },
@@ -1577,7 +1866,7 @@
   "model": "competitors.musicstyle",
   "pk": 21,
   "fields": {
-    "name": "Variado",
+    "name": "variado",
     "slug": "variado"
   }
 },
@@ -1585,7 +1874,7 @@
   "model": "competitors.musicstyle",
   "pk": 22,
   "fields": {
-    "name": "Gospel",
+    "name": "gospel",
     "slug": "gospel"
   }
 },
@@ -1593,7 +1882,7 @@
   "model": "competitors.musicstyle",
   "pk": 23,
   "fields": {
-    "name": "Afro",
+    "name": "afro",
     "slug": "afro"
   }
 },
@@ -1601,7 +1890,7 @@
   "model": "competitors.musicstyle",
   "pk": 24,
   "fields": {
-    "name": "Jazz",
+    "name": "jazz",
     "slug": "jazz"
   }
 },
@@ -1609,7 +1898,7 @@
   "model": "competitors.musicstyle",
   "pk": 25,
   "fields": {
-    "name": "Rock",
+    "name": "rock",
     "slug": "rock"
   }
 },
@@ -1683,8 +1972,8 @@
     "avatar": "competitors/2023/12/07/bea.png",
     "music_styles": [
       2,
-      7,
-      10
+      10,
+      7
     ]
   }
 },
@@ -1719,9 +2008,9 @@
     "hobbies": "Saxo, baloncesto",
     "avatar": "competitors/2023/12/07/omar.png",
     "music_styles": [
+      25,
       13,
-      14,
-      25
+      14
     ]
   }
 },
@@ -1812,9 +2101,9 @@
     "avatar": "competitors/2023/12/07/cris.png",
     "music_styles": [
       2,
+      18,
       6,
-      7,
-      18
+      7
     ]
   }
 },
@@ -1866,9 +2155,9 @@
     "hobbies": "Tocar instrumentos (bajo eléctrico, le relaja el sonido). Le gusta el arte, el mundo de la moda, interpretación y baile.",
     "avatar": "competitors/2023/12/07/ruslana.png",
     "music_styles": [
+      25,
       6,
-      7,
-      25
+      7
     ]
   }
 },
@@ -1919,7 +2208,8 @@
     "last_name": "Buik",
     "slug": "concha-buik",
     "job": "Cantante",
-    "avatar": "judges/2023/12/07/buika_avEGsRQ.png"
+    "avatar": "judges/2023/12/09/concha_buika.jpg",
+    "description": "Mallorquina de origen Bubi (Guinea Ecuatorial), Buika es una artista multidisciplinar, autodidacta, cantautora, poeta de sus propias composiciones de diversos estilos musicales. Abarca todo tipo de géneros, desde jazz, latin, pop, house, soul, reggae, sentimiento flamenco y diferentes géneros africanos. En 2022 ha sido galardonada con la medalla de oro al mérito en las Bellas Artes y con el Buika World Tour 2023 ha publicado 12 singles durante el año."
   }
 },
 {
@@ -1930,7 +2220,8 @@
     "last_name": "Rouss",
     "slug": "pablo-rouss",
     "job": "Productor musical",
-    "avatar": "judges/2023/12/07/pablo_gkyC5c3.png"
+    "avatar": "judges/2023/12/09/pablo_rouss.jpg",
+    "description": "Pablo Rouss está considerado uno de los productores de mayor renombre de nuestro país, tras haber trabajado con artistas de la talla de Sebastián Yatra, David Bisbal, Belén Aguilera, Recycled J, Marlon o Álvaro de Luna. En la última edición de los Latin Grammy en Las Vegas, Pablo consiguió estatuillas en dos de las categorías más importantes de la noche: “Mejor Canción Pop” por Tacones Rojos y “Mejor Álbum Pop Latino” por Dharma. Tras el lanzamiento de su álbum debut Ciclos, el productor musical está preparando su segundo trabajo que verá la luz muy pronto"
   }
 },
 {
@@ -1941,7 +2232,8 @@
     "last_name": "Regatero",
     "slug": "cristina-regatero",
     "job": "Presentadora de radio",
-    "avatar": "judges/2023/12/07/cristina_zQM35n9.png"
+    "avatar": "judges/2023/12/09/cris_regatero.jpg",
+    "description": "Cris Regatero, presentadora de LOS40 desde 2017 es, además, locutora de publicidad, creadora de contenido musical en redes y disyóquey de radiofórmula cada tarde. También dirige la sección 3x2 en redes de LOS40, donde cada semana descubre y recomienda a nuevos talentos y artistas del panorama musical nacional e internacional. Regatero, participó con su sección musical en Hoy por Hoy Madrid de Cadena Ser durante dos temporadas, donde también ha presentado y dirigido el podcast Todo es Empezar, un programa dedicado a que los más jóvenes puedan escuchar experiencias contadas por sus ídolos del mundo del cine, el deporte, la comunicación o la música."
   }
 },
 {
@@ -1952,7 +2244,8 @@
     "last_name": "Mirallas",
     "slug": "vic-mirallas",
     "subject": "Repaso",
-    "avatar": "teachers/2023/12/07/vic.png"
+    "avatar": "teachers/2023/12/07/vic.png",
+    "description": "Vic Mirallas, músico con formación clásica y estudios en Berklee, Boston. Se unió a Alejandro Sanz como saxofonista y corista durante seis años. También es un productor y compositor exitoso con tres discos y varias colaboraciones que lo han llevado a hacer giras por España, México y Argentina. Actualmente trabaja en su cuarto álbum, programado para principios de 2024."
   }
 },
 {
@@ -1963,7 +2256,8 @@
     "last_name": "Gómez",
     "slug": "vicky-gomez",
     "subject": "Coreografia",
-    "avatar": "teachers/2023/12/07/vicky.png"
+    "avatar": "teachers/2023/12/07/vicky.png",
+    "description": "Vicky Gómez, bailarina y coreógrafa con formación en Madrid y Estados Unidos, y ganadora de Fama, ¡a bailar! en 2008. Parte del cuerpo de baile en programas como Tu cara me suena y La Voz. Ha trabajado en videoclips y realizado giras internacionales con artistas como Abraham Mateo. Como coreógrafa en televisión ha trabajado en programas como Operación Triunfo, Bailando con las Estrellas y Benidorm Fest. También ha coreografiado para artistas como Aitana en su Play Tour y en videoclips de artistas como Natalia Lacunza o África Adalia. En teatro ha coreografiado el musical Flashdance."
   }
 },
 {
@@ -1974,7 +2268,8 @@
     "last_name": "Hinojosa",
     "slug": "tony-hinojosa",
     "subject": "Fitness",
-    "avatar": "teachers/2023/12/07/toni.png"
+    "avatar": "teachers/2023/12/07/toni.png",
+    "description": "Toni Hinojosa, apasionado del deporte, es entrenador personal certificado y acreditado con más de 10 años de experiencia. Dirige su propia empresa de entrenamiento personal, compartiendo conocimientos y formando nuevos entrenadores en su metodología."
   }
 },
 {
@@ -1985,7 +2280,8 @@
     "last_name": "Blume",
     "slug": "veronica-blume",
     "subject": "Yoga",
-    "avatar": "teachers/2023/12/07/veronica.png"
+    "avatar": "teachers/2023/12/07/veronica.png",
+    "description": "Verónica Blume tiene amplia experiencia en modelaje, desfiló en España, New York y París, trabajó con grandes fotógrafos para revistas de moda y campañas de publicidad. Con el embarazo de su hijo Liam, experimentó un cambio vital en el que descubrió una nueva conexión entre cuerpo y alma a través del yoga y la meditación."
   }
 },
 {
@@ -1996,7 +2292,8 @@
     "last_name": "Lluch",
     "slug": "pablo-lluch",
     "subject": "Repaso",
-    "avatar": "teachers/2023/12/07/pablo_p.png"
+    "avatar": "teachers/2023/12/07/pablo_p.png",
+    "description": "Pablo Lluch, músico, compositor y productor con formación en violín y piano. Ha compuesto y producido musicales, colaborado en la gira de Soraya Arnelas en 2023 y es director musical de la banda COLET. También es un creador de contenido musical con éxito en redes sociales, dónde ha alcanzado más de 40 millones de visualizaciones."
   }
 },
 {
@@ -2007,7 +2304,8 @@
     "last_name": "Guix",
     "slug": "manu-guix",
     "subject": "Director musical",
-    "avatar": "teachers/2023/12/07/manu.png"
+    "avatar": "teachers/2023/12/07/manu.png",
+    "description": "En dirección musical, ha tenido éxitos como Geronimo Stilton. El Musical del regne de la Fantasia; Grease, el Musical y Priscilla, reina del desierto. Tiene seis álbumes en solitario, un estudio de grabación, y compone para publicidad y cine. En teatro, es director musical de La Jaula de las Locas, La Tienda de los horrores, y estrena The producers en Barcelona."
   }
 },
 {
@@ -2018,7 +2316,8 @@
     "last_name": "Márquez",
     "slug": "mamen-marquez",
     "subject": "Técnica vocal",
-    "avatar": "teachers/2023/12/07/mamen.png"
+    "avatar": "teachers/2023/12/07/mamen.png",
+    "description": "Mamen Márquez, destacada vocal coach con más de 20 años de experiencia en técnica vocal tanto cantada como hablada. Ha sido profesora y productora de cursos de voz, y también Vocal Coach de las tres últimas ediciones de Operación Triunfo. Trabaja con reconocidos artistas como Antonio Banderas, Aitana, y fue directora vocal y musical de Miki Núñez en Eurovisión 2019. Además, trabaja con artistas en la preparación vocal de personajes para teatro musical como Company (Vocal Coach y Asistente de dirección escénica de Antonio Banderas), Aladdín, Familia Addams, Los Miserables, Mama Mia!, West Side Story y El Rey León. Desde 2012, colabora en la preparación vocal de numerosos participantes del programa Tu Cara Me Suena."
   }
 },
 {
@@ -2029,7 +2328,8 @@
     "last_name": "Endje",
     "slug": "judith-endje",
     "subject": "Baile urbano",
-    "avatar": "teachers/2023/12/07/judith.png"
+    "avatar": "teachers/2023/12/07/judith.png",
+    "description": "Judith Endje, destacada bailarina y coreógrafa de danzas urbanas, dirige su propia escuela, Innedit Dance Complex, en Sabadell (Barcelona). Con una formación extensa en Hip Hop a nivel nacional e internacional, ha participado en Operación Triunfo, MTV Awards y Love The 90s, además de colaborar con artistas como Lali Espósito, Shakira, Lola Índigo y más."
   }
 },
 {
@@ -2040,7 +2340,8 @@
     "last_name": "Earnshaw",
     "slug": "jill-earnshaw",
     "subject": "Inglés",
-    "avatar": "teachers/2023/12/07/jill.png"
+    "avatar": "teachers/2023/12/07/jill.png",
+    "description": "Jill Earnshaw, es licenciada en Estudios Europeos, posee un MBA en Dirección de Empresas y es diplomada en enseñanza de inglés. Hace 28 años que se dedica a enseñar inglés tanto en empresas, como particulares y para la preparación de exámenes Cambridge. Lleva 35 años viviendo en España."
   }
 },
 {
@@ -2051,7 +2352,8 @@
     "last_name": "Ibañez",
     "slug": "gerard-ibanez",
     "subject": "Canto coral",
-    "avatar": "teachers/2023/12/07/gerard.png"
+    "avatar": "teachers/2023/12/07/gerard.png",
+    "description": "Gerard Ibáñez, director musical y arreglista vocal, combina su formación en canto lírico y teatro musical con experiencia en televisión. Ganador del programa OH HAPPY DAY, ha dirigido coros de diversos estilos y destaca por su expresión única a través de armonías vocales."
   }
 },
 {
@@ -2062,7 +2364,8 @@
     "last_name": "Zamora",
     "slug": "abril-zamora",
     "subject": "Interpretacion",
-    "avatar": "teachers/2023/12/07/abril.png"
+    "avatar": "teachers/2023/12/07/abril.png",
+    "description": "Abril Zamora, actriz, guionista y directora con una destacada carrera teatral y proyectos televisivos y cinematográficos. Interpretó a Luna en la serie Vis a vis, compartió escenas con Sophia Loren en la película La vida por delante, y co-creó la serie Señoras del (h)AMPA. También participó como guionista en Élite y, dentro del universo de la serie, ha escrito dos novelas. Recientemente, ha rodado El Molino, Un nuevo amanecer y espera el estreno de la segunda temporada de Sagrada Familia."
   }
 },
 {
@@ -2080,7 +2383,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/alex.png",
-    "modified": "2023-12-07T12:14:43.579Z"
+    "modified": "2023-12-10T15:16:18.291Z"
   }
 },
 {
@@ -2089,7 +2392,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/denna.png",
-    "modified": "2023-12-07T14:29:25.451Z"
+    "modified": "2023-12-10T15:28:49.285Z"
   }
 },
 {
@@ -2098,7 +2401,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/alvaro.png",
-    "modified": "2023-12-07T14:29:25.476Z"
+    "modified": "2023-12-10T15:29:33.521Z"
   }
 },
 {
@@ -2107,7 +2410,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/bea.png",
-    "modified": "2023-12-07T14:53:54.648Z"
+    "modified": "2023-12-10T16:47:25.754Z"
   }
 },
 {
@@ -2116,7 +2419,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/chiara.png",
-    "modified": "2023-12-07T14:53:54.680Z"
+    "modified": "2023-12-10T15:06:12.327Z"
   }
 },
 {
@@ -2125,7 +2428,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/cris.png",
-    "modified": "2023-12-07T14:53:54.712Z"
+    "modified": "2023-12-10T15:33:04.110Z"
   }
 },
 {
@@ -2134,7 +2437,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/juanjo.png",
-    "modified": "2023-12-07T14:53:54.760Z"
+    "modified": "2023-12-10T15:33:27.092Z"
   }
 },
 {
@@ -2143,7 +2446,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/lucas.png",
-    "modified": "2023-12-07T14:53:54.794Z"
+    "modified": "2023-12-13T10:51:16.428Z"
   }
 },
 {
@@ -2152,7 +2455,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/martin.png",
-    "modified": "2023-12-07T14:53:54.828Z"
+    "modified": "2023-12-10T15:33:16.372Z"
   }
 },
 {
@@ -2161,7 +2464,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/naira.png",
-    "modified": "2023-12-07T14:53:54.869Z"
+    "modified": "2023-12-13T10:24:36.248Z"
   }
 },
 {
@@ -2170,7 +2473,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/omar.png",
-    "modified": "2023-12-07T14:53:54.950Z"
+    "modified": "2023-12-10T15:33:20.455Z"
   }
 },
 {
@@ -2179,7 +2482,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/paul.png",
-    "modified": "2023-12-07T14:53:54.935Z"
+    "modified": "2023-12-10T15:33:22.957Z"
   }
 },
 {
@@ -2188,7 +2491,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/ruslana.png",
-    "modified": "2023-12-07T14:53:54.973Z"
+    "modified": "2023-12-12T21:50:05.692Z"
   }
 },
 {
@@ -2197,7 +2500,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/salva.png",
-    "modified": "2023-12-07T14:53:55.003Z"
+    "modified": "2023-12-08T01:48:41.312Z"
   }
 },
 {
@@ -2206,7 +2509,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/suzette.png",
-    "modified": "2023-12-07T14:53:55.028Z"
+    "modified": "2023-12-13T10:24:47.606Z"
   }
 },
 {
@@ -2215,7 +2518,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "competitors/2023/12/07/violeta.png",
-    "modified": "2023-12-07T14:53:55.055Z"
+    "modified": "2023-12-08T01:48:41.353Z"
   }
 },
 {
@@ -2224,7 +2527,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "judges/2023/12/07/buika_avEGsRQ.png",
-    "modified": "2023-12-07T17:49:03.902Z"
+    "modified": "2023-12-08T02:24:22.453Z"
   }
 },
 {
@@ -2233,7 +2536,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "judges/2023/12/07/cristina_zQM35n9.png",
-    "modified": "2023-12-07T17:49:07.692Z"
+    "modified": "2023-12-08T02:24:22.472Z"
   }
 },
 {
@@ -2242,7 +2545,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "judges/2023/12/07/pablo_gkyC5c3.png",
-    "modified": "2023-12-07T17:49:10.637Z"
+    "modified": "2023-12-08T02:24:22.479Z"
   }
 },
 {
@@ -2251,7 +2554,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/abril.png",
-    "modified": "2023-12-07T18:11:31.471Z"
+    "modified": "2023-12-13T10:48:33.644Z"
   }
 },
 {
@@ -2260,7 +2563,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/gerard.png",
-    "modified": "2023-12-07T18:11:34.637Z"
+    "modified": "2023-12-13T10:28:49.054Z"
   }
 },
 {
@@ -2269,7 +2572,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/jill.png",
-    "modified": "2023-12-07T17:55:30.094Z"
+    "modified": "2023-12-13T10:47:42.402Z"
   }
 },
 {
@@ -2278,7 +2581,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/judith.png",
-    "modified": "2023-12-07T17:55:30.115Z"
+    "modified": "2023-12-13T10:28:30.085Z"
   }
 },
 {
@@ -2287,7 +2590,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/mamen.png",
-    "modified": "2023-12-07T17:55:30.139Z"
+    "modified": "2023-12-08T02:25:27.049Z"
   }
 },
 {
@@ -2296,7 +2599,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/manu.png",
-    "modified": "2023-12-07T17:55:30.162Z"
+    "modified": "2023-12-13T10:47:13.530Z"
   }
 },
 {
@@ -2305,7 +2608,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/pablo_p.png",
-    "modified": "2023-12-07T17:55:30.183Z"
+    "modified": "2023-12-09T15:17:31.966Z"
   }
 },
 {
@@ -2314,7 +2617,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/toni.png",
-    "modified": "2023-12-07T17:55:30.205Z"
+    "modified": "2023-12-08T02:25:27.098Z"
   }
 },
 {
@@ -2323,7 +2626,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/veronica.png",
-    "modified": "2023-12-07T17:55:30.227Z"
+    "modified": "2023-12-09T15:18:02.892Z"
   }
 },
 {
@@ -2332,7 +2635,7 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/vic.png",
-    "modified": "2023-12-07T17:55:30.250Z"
+    "modified": "2023-12-08T02:25:27.131Z"
   }
 },
 {
@@ -2341,7 +2644,34 @@
   "fields": {
     "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
     "name": "teachers/2023/12/07/vicky.png",
-    "modified": "2023-12-07T17:55:30.275Z"
+    "modified": "2023-12-09T15:18:08.550Z"
+  }
+},
+{
+  "model": "easy_thumbnails.source",
+  "pk": 32,
+  "fields": {
+    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+    "name": "judges/2023/12/09/concha_buika.jpg",
+    "modified": "2023-12-13T10:27:36.068Z"
+  }
+},
+{
+  "model": "easy_thumbnails.source",
+  "pk": 33,
+  "fields": {
+    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+    "name": "judges/2023/12/09/cris_regatero.jpg",
+    "modified": "2023-12-13T10:27:33.484Z"
+  }
+},
+{
+  "model": "easy_thumbnails.source",
+  "pk": 34,
+  "fields": {
+    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+    "name": "judges/2023/12/09/pablo_rouss.jpg",
+    "modified": "2023-12-13T10:27:37.971Z"
   }
 },
 {
@@ -2732,6 +3062,1176 @@
     "name": "teachers/2023/12/07/gerard.png.500x500_q85.jpg",
     "modified": "2023-12-07T18:11:34.641Z",
     "source": 22
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 40,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alex.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:45:30.651Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 41,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/cris.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:45:47.984Z",
+    "source": 7
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 42,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/veronica.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:46:33.430Z",
+    "source": 29
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 43,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/manu.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:46:47.991Z",
+    "source": 26
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 44,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/chiara.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:52:20.277Z",
+    "source": 6
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 45,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/lucas.png.200x200_q85.png",
+    "modified": "2023-12-07T19:52:20.316Z",
+    "source": 9
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 46,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/gerard.png.200x200_q85.jpg",
+    "modified": "2023-12-07T19:52:20.330Z",
+    "source": 22
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 47,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/bea.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:31:12.557Z",
+    "source": 5
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 48,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/martin.png.200x200_q85.png",
+    "modified": "2023-12-07T20:31:12.591Z",
+    "source": 10
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 49,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/suzette.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:31:12.614Z",
+    "source": 16
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 50,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alvaro.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:31:26.102Z",
+    "source": 4
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 51,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/ruslana.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:31:26.124Z",
+    "source": 14
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 52,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/violeta.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:31:26.144Z",
+    "source": 17
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 53,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/judith.png.200x200_q85.jpg",
+    "modified": "2023-12-07T20:35:53.945Z",
+    "source": 24
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 54,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/judith.png.500x500_q85.jpg",
+    "modified": "2023-12-07T20:35:58.849Z",
+    "source": 24
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 55,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/denna.png.200x200_q85.jpg",
+    "modified": "2023-12-08T01:48:31.268Z",
+    "source": 3
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 56,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/juanjo.png.200x200_q85.png",
+    "modified": "2023-12-08T01:48:31.310Z",
+    "source": 8
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 57,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/naira.png.200x200_q85.png",
+    "modified": "2023-12-08T01:48:31.350Z",
+    "source": 11
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 58,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/omar.png.200x200_q85.png",
+    "modified": "2023-12-08T01:48:31.390Z",
+    "source": 12
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 59,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/paul.png.200x200_q85.jpg",
+    "modified": "2023-12-08T01:48:31.417Z",
+    "source": 13
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 60,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/salva.png.200x200_q85.jpg",
+    "modified": "2023-12-08T01:48:31.439Z",
+    "source": 15
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 61,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alex.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:40.953Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 62,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/denna.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:40.972Z",
+    "source": 3
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 63,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alvaro.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:40.991Z",
+    "source": 4
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 64,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/bea.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.010Z",
+    "source": 5
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 65,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/chiara.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.031Z",
+    "source": 6
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 66,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/cris.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.052Z",
+    "source": 7
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 67,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/juanjo.png.250x250_q85.png",
+    "modified": "2023-12-08T01:48:41.094Z",
+    "source": 8
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 68,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/lucas.png.250x250_q85.png",
+    "modified": "2023-12-08T01:48:41.136Z",
+    "source": 9
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 69,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/martin.png.250x250_q85.png",
+    "modified": "2023-12-08T01:48:41.173Z",
+    "source": 10
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 70,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/naira.png.250x250_q85.png",
+    "modified": "2023-12-08T01:48:41.214Z",
+    "source": 11
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 71,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/omar.png.250x250_q85.png",
+    "modified": "2023-12-08T01:48:41.256Z",
+    "source": 12
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 72,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/paul.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.275Z",
+    "source": 13
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 73,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/ruslana.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.296Z",
+    "source": 14
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 74,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/salva.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.314Z",
+    "source": 15
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 75,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/suzette.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.335Z",
+    "source": 16
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 76,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/violeta.png.250x250_q85.jpg",
+    "modified": "2023-12-08T01:48:41.355Z",
+    "source": 17
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 77,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/07/buika_avEGsRQ.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:24:22.456Z",
+    "source": 18
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 78,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/07/cristina_zQM35n9.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:24:22.474Z",
+    "source": 19
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 79,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/07/pablo_gkyC5c3.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:24:22.481Z",
+    "source": 20
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 80,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/abril.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:26.993Z",
+    "source": 21
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 81,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/gerard.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.008Z",
+    "source": 22
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 82,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/jill.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.022Z",
+    "source": 23
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 83,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/judith.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.035Z",
+    "source": 24
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 84,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/mamen.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.051Z",
+    "source": 25
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 85,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/manu.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.068Z",
+    "source": 26
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 86,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/pablo_p.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.084Z",
+    "source": 27
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 87,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/toni.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.100Z",
+    "source": 28
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 88,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/veronica.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.116Z",
+    "source": 29
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 89,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/vic.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.133Z",
+    "source": 30
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 90,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/vicky.png.250x250_q85.jpg",
+    "modified": "2023-12-08T02:25:27.149Z",
+    "source": 31
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 91,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/jill.png.500x500_q85.jpg",
+    "modified": "2023-12-09T00:26:24.699Z",
+    "source": 23
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 92,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.250x250_q85.jpg",
+    "modified": "2023-12-09T13:41:26.531Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 93,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.250x250_q85.jpg",
+    "modified": "2023-12-09T13:41:26.555Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 94,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.250x250_q85.jpg",
+    "modified": "2023-12-09T13:41:26.574Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 95,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.300x300_q85.jpg",
+    "modified": "2023-12-09T13:43:15.614Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 96,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.300x300_q85.jpg",
+    "modified": "2023-12-09T13:43:15.635Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 97,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.300x300_q85.jpg",
+    "modified": "2023-12-09T13:43:15.658Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 98,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85.jpg",
+    "modified": "2023-12-09T13:43:23.162Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 99,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85.jpg",
+    "modified": "2023-12-09T13:43:23.182Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 100,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85.jpg",
+    "modified": "2023-12-09T13:43:23.204Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 101,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85_autocrop.jpg",
+    "modified": "2023-12-09T13:43:40.353Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 102,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85_autocrop.jpg",
+    "modified": "2023-12-09T13:43:40.382Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 103,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85_autocrop.jpg",
+    "modified": "2023-12-09T13:43:40.411Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 104,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85_crop-smart.jpg",
+    "modified": "2023-12-09T13:46:20.670Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 105,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85_crop-smart.jpg",
+    "modified": "2023-12-09T13:46:20.703Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 106,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85_crop-smart.jpg",
+    "modified": "2023-12-09T13:46:20.735Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 107,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85_crop--10,0.jpg",
+    "modified": "2023-12-09T13:46:46.507Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 108,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85_crop--10,0.jpg",
+    "modified": "2023-12-09T13:46:46.535Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 109,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85_crop--10,0.jpg",
+    "modified": "2023-12-09T13:46:46.563Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 110,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85_crop--10,0,-10.jpg",
+    "modified": "2023-12-09T13:46:56.624Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 111,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85_crop--10,0,-10.jpg",
+    "modified": "2023-12-09T13:46:56.651Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 112,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85_crop--10,0,-10.jpg",
+    "modified": "2023-12-09T13:46:56.679Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 113,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.500x500_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:17.045Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 114,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.500x500_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:17.073Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 115,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.500x500_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:17.102Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 116,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.250x250_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:28.610Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 117,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.250x250_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:28.629Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 118,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.250x250_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-09T13:47:28.649Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 119,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/pablo_p.png.500x500_q85.jpg",
+    "modified": "2023-12-09T15:17:31.969Z",
+    "source": 27
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 120,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/manu.png.500x500_q85.jpg",
+    "modified": "2023-12-09T15:17:37.723Z",
+    "source": 26
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 121,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/veronica.png.500x500_q85.jpg",
+    "modified": "2023-12-09T15:18:02.894Z",
+    "source": 29
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 122,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/vicky.png.500x500_q85.jpg",
+    "modified": "2023-12-09T15:18:08.553Z",
+    "source": 31
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 123,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alex.png.400x400_q85.jpg",
+    "modified": "2023-12-09T16:22:42.218Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 124,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/denna.png.400x400_q85.jpg",
+    "modified": "2023-12-10T14:45:24.445Z",
+    "source": 3
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 125,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alvaro.png.400x400_q85.jpg",
+    "modified": "2023-12-10T15:05:41.098Z",
+    "source": 4
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 126,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/chiara.png.400x400_q85.jpg",
+    "modified": "2023-12-10T15:05:43.639Z",
+    "source": 6
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 127,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/chiara.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:06:12.329Z",
+    "source": 6
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 128,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alex.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:16:18.295Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 129,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/denna.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:28:49.287Z",
+    "source": 3
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 130,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/alvaro.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:29:33.524Z",
+    "source": 4
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 131,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/cris.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:33:04.112Z",
+    "source": 7
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 132,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/martin.png.300x300_q85.png",
+    "modified": "2023-12-10T15:33:16.375Z",
+    "source": 10
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 133,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/omar.png.300x300_q85.png",
+    "modified": "2023-12-10T15:33:20.457Z",
+    "source": 12
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 134,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/paul.png.300x300_q85.jpg",
+    "modified": "2023-12-10T15:33:22.960Z",
+    "source": 13
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 135,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/juanjo.png.300x300_q85.png",
+    "modified": "2023-12-10T15:33:27.094Z",
+    "source": 8
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 136,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/bea.png.300x300_q85.jpg",
+    "modified": "2023-12-10T16:47:25.757Z",
+    "source": 5
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 137,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/ruslana.png.300x300_q85.jpg",
+    "modified": "2023-12-12T21:50:05.698Z",
+    "source": 14
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 138,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.300x300_q85_autocrop.jpg",
+    "modified": "2023-12-12T21:54:01.947Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 139,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-12T21:54:56.142Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 140,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-12T21:55:03.976Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 141,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/jill.png.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-12T21:57:15.547Z",
+    "source": 23
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 142,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/gerard.png.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-12T21:57:18.212Z",
+    "source": 22
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 143,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/manu.png.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-12T21:57:21.660Z",
+    "source": 26
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 144,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/abril.png.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-13T10:06:38.054Z",
+    "source": 21
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 145,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/naira.png.300x300_q85.png",
+    "modified": "2023-12-13T10:24:36.250Z",
+    "source": 11
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 146,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/suzette.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:24:47.609Z",
+    "source": 16
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 147,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.300x300_q85_crop-smart.jpg",
+    "modified": "2023-12-13T10:26:52.131Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 148,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/cris_regatero.jpg.300x300_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-13T10:27:33.488Z",
+    "source": 33
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 149,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/concha_buika.jpg.300x300_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-13T10:27:36.070Z",
+    "source": 32
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 150,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "judges/2023/12/09/pablo_rouss.jpg.300x300_q85_crop--10,0,-10, 0.jpg",
+    "modified": "2023-12-13T10:27:37.973Z",
+    "source": 34
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 151,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/judith.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:28:30.088Z",
+    "source": 24
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 152,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/gerard.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:28:49.056Z",
+    "source": 22
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 153,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/manu.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:47:13.533Z",
+    "source": 26
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 154,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/jill.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:47:42.405Z",
+    "source": 23
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 155,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "teachers/2023/12/07/abril.png.300x300_q85.jpg",
+    "modified": "2023-12-13T10:48:33.646Z",
+    "source": 21
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 156,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "competitors/2023/12/07/lucas.png.300x300_q85.png",
+    "modified": "2023-12-13T10:51:16.431Z",
+    "source": 9
   }
 }
 ]

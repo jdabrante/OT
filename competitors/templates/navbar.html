@@ -29,9 +29,9 @@
 <nav>
     <ul>
         <li><a href="{% url 'dashboard'%}"><img src="{% static "img/logo.png" %}" class="logo"></a></li>
-        <li><a href="{% url 'judges:judge_list' %}">Jurado</a></li>
-        <li><a href="{% url 'competitors:competitors_list' %}">Concursantes</a></li>
-        <li><a href="{% url 'teachers:teachers_list' %}">Profesorado</a></li>
+        <li><a href="{% url 'judges:judge_list' %}"  {% if section == 'judges' %} class='selected' {% endif %}>Jurado</a></li>
+        <li><a href="{% url 'competitors:competitors_list' %}" {% if section == 'competitors' %} class='selected' {% endif %}>Concursantes</a></li>
+        <li><a href="{% url 'teachers:teachers_list' %}" {% if section == 'teachers' %} class='selected' {% endif %}>Profesorado</a></li>
     </ul>
     <div class="form">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">

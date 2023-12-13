@@ -12,6 +12,8 @@
         <p class="competitor-name">{{ member.first_name }}</p>
     </a>
 </div>
+{% empty %}
+<p class="empty">No parece que seas muy fan de OT si estás buscando por "{{ query|title }}"</p>
 {% endfor %}
 </div>
 {% endblock %}

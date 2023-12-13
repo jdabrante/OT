@@ -14,13 +14,13 @@ def dashboard(request: HttpRequest) -> HttpResponse:
 def competitors_list(request: HttpRequest) -> HttpResponse:
     competitors = Competitor.objects.all()
     form = SearchForm()
-    return render(request, 'competitors/list.html', dict(competitors=competitors, form=form))
+    return render(request, 'competitors/list.html', dict(competitors=competitors, form=form, section='competitors'))
 
 
 def competitor_detail(request: HttpRequest, competitor_slug: str) -> HttpResponse:
     competitor = get_object_or_404(Competitor, slug=competitor_slug)
     form = SearchForm()
-    return render(request, 'competitors/detail.html', dict(competitor=competitor, form=form))
+    return render(request, 'competitors/detail.html', dict(competitor=competitor, form=form, section='competitors'))
 
 def member_search(request):
     form = SearchForm()
@@ -37,4 +37,4 @@ def member_search(request):
             judges = set(Judge.objects.annotate(search=SearchVector('first_name', 'last_name', 'job')).filter(search=query))    
             # Use chain to agrupate the 'querysets'
             results = chain(competitors, teachers, judges)
-    return render(request, 'search.html', dict(results=results, form=form))
+    return render(request, 'search.html', dict(results=results, form=form, query=query))
